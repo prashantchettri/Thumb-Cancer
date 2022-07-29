@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200&display=swap');
 html {
   background-image: linear-gradient(#fbab7e, #f7ce68);
 }
@@ -6,9 +7,16 @@ body {
   background-image: url(images/thumb2.png);
   background-position: top center;
   background-repeat: no-repeat;
-  font-family: "Roboto", sans-serif;
-  color: white;
+  font-family: "poppins", sans-serif;
+  color: black;
   font-size: 1.125 rem;
+}
+
+.herobox1{
+  font-weight: bold;
+}
+.herobox1.thumbCancer{
+  font-size: large;
 }
 
 .container {
@@ -18,16 +26,19 @@ body {
   margin-right: auto;
 }
 
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid lightgray;
+  padding-bottom: 5px;
+  border-bottom: 2px solid lightgray;
 }
 
 main {
+  padding-bottom: 30px;
+  padding-top: 20px;
   min-height: 300px;
   display: flex;
   align-items: center;
@@ -127,7 +138,7 @@ p {
   color: #f7ce68;
   font-family: "Playfair Display", serif;
   text-decoration: none;
-  background-color: white;
+  background-color: rgb(137, 54, 232);
   padding: 10px 25px 10px 25px;
   border-radius: 5px;
 }
