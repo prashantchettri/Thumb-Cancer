@@ -1,0 +1,227 @@
+html {
+  background-image: linear-gradient(#fbab7e, #f7ce68);
+}
+
+body {
+  background-image: url(images/thumb2.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 1.125 rem;
+}
+
+.container {
+  width: 1024px;
+  min-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+main {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+}
+.main2 {
+  min-height: 300px;
+  padding-top: 30px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.card1 {
+  background-image: url(images/diplo-co.jpeg);
+  background-size: cover;
+  background-position: top;
+  min-height: 250px;
+  width: 30%;
+}
+
+.card1 p {
+  position: relative;
+  top: 115px;
+}
+.card2 {
+  background-image: url(images/co-founder-pra.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 250px;
+  width: 30%;
+}
+.card2 p {
+  position: relative;
+  top: 135px;
+}
+.card3 {
+  background-image: url(images/hq.jpg);
+  background-size: cover;
+  background-position: bottom;
+  min-height: 250px;
+  width: 30%;
+}
+.card3 p {
+  position: relative;
+  top: 135px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.herobox1 {
+  padding-right: 100px;
+  flex: 2;
+}
+
+.herobox2 {
+  flex: 1;
+}
+h1 {
+  padding-bottom: 1rem;
+  font-size: 2rem;
+  font-family: "Playfair Display", serif;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.103);
+}
+h2 {
+  margin-top: 10px;
+  font-size: 1.25rem;
+  font-family: "Playfair Display", serif;
+}
+
+p {
+  line-height: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.cards p {
+  font-size: 0.85rem;
+  line-height: 1.19rem;
+  margin: 10px 30px 20px 30px;
+}
+
+.cards i {
+  padding-top: 20px;
+  font-size: 100px;
+}
+
+.cards a {
+  color: white;
+  text-decoration: none;
+}
+.mybutton {
+  color: #f7ce68;
+  font-family: "Playfair Display", serif;
+  text-decoration: none;
+  background-color: white;
+  padding: 10px 25px 10px 25px;
+  border-radius: 5px;
+}
+
+.mybutton:hover {
+  background-color: #709397;
+  transition-duration: 0.5s;
+}
+
+a.mybutton {
+  display: inline-block;
+  margin-top: 5px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.248);
+}
+
+nav a.mybutton {
+  margin-left: 1px;
+}
+
+.navbutton {
+  color: white;
+  background-color: transparent;
+  font-family: "Playfair Display", serif;
+  border: 1px;
+  border-color: white;
+  border-style: solid;
+  box-shadow: 0px 0px 0px 0px;
+  border-radius: 0px 0px;
+  padding: 10px 25px 10px 25px;
+  display: inline-block;
+  position: relative;
+}
+
+.review {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  margin-bottom: 100px;
+}
+
+.rbox {
+  width: 47%;
+  padding: 50px;
+  border: 1px solid white;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+
+.rbox :last-child {
+  font-size: 0.8rem;
+  padding-left: 20px;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  padding-top: 20px;
+  text-align: center;
+  margin-left: -25px;
+}
+
+.navbutton:hover .dropdown {
+  display: block;
+}
+
+.dropdown .navbutton {
+  width: 120px;
+  background-color: azure;
+  transition-delay: 500ms;
+}
+.dropdown .navbutton a {
+  color: #f7ce68;
+}
+.dropdown .navbutton:hover {
+  background-color: #709397;
+  transition-duration: 500ms;
+}
+
+/* form input {
+  display: inline;
+  padding: 5px 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+} */
+
+.inputwrapper {
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  border-style: none;
+}
+
+form {
+  margin: 30px 0px;
+}
