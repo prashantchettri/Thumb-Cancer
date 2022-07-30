@@ -52,37 +52,38 @@ main {
   display: flex;
   justify-content: space-between;
   text-align: center;
+
 }
 
 .card1 {
-  background-image: url(images/diplo-co.jpeg);
   background-size: cover;
   background-position: top;
   min-height: 250px;
   width: 30%;
 }
 
+
 .card1 p {
   position: relative;
   top: 115px;
 }
 .card2 {
-  background-image: url(images/co-founder-pra.jpg);
   background-size: cover;
   background-position: center;
   min-height: 250px;
   width: 30%;
+
 }
 .card2 p {
   position: relative;
   top: 135px;
 }
 .card3 {
-  background-image: url(images/hq.jpg);
   background-size: cover;
   background-position: bottom;
   min-height: 250px;
   width: 30%;
+
 }
 .card3 p {
   position: relative;
@@ -236,3 +237,6 @@ input[type="submit"] {
 form {
   margin: 30px 0px;
 }
+
+
+
