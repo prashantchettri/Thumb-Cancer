@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200&display=swap");
 html {
   background-image: linear-gradient(#fbab7e, #f7ce68);
 }
@@ -12,10 +12,10 @@ body {
   font-size: 1.125 rem;
 }
 
-.herobox1{
+.herobox1 {
   font-weight: bold;
 }
-.herobox1.thumbCancer{
+.herobox1.thumbCancer {
   font-size: large;
 }
 
@@ -25,7 +25,6 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
 
 header {
   display: flex;
@@ -52,7 +51,6 @@ main {
   display: flex;
   justify-content: space-between;
   text-align: center;
-
 }
 
 .card1 {
@@ -61,7 +59,6 @@ main {
   min-height: 250px;
   width: 30%;
 }
-
 
 .card1 p {
   position: relative;
@@ -72,7 +69,6 @@ main {
   background-position: center;
   min-height: 250px;
   width: 30%;
-
 }
 .card2 p {
   position: relative;
@@ -83,7 +79,6 @@ main {
   background-position: bottom;
   min-height: 250px;
   width: 30%;
-
 }
 .card3 p {
   position: relative;
@@ -180,17 +175,17 @@ nav a.mybutton {
   justify-content: space-between;
 
   margin-bottom: 100px;
-  padding-right: 250px;
-  padding-left: 250px;
+  /* padding-right: 250px;
+  padding-left: 250px; */
 }
 
 .rbox {
   width: 47%;
   padding: 50px;
-  border: 2px solid rgb(160, 95, 234);
+  border: 2px solid rgb(18, 17, 20);
   box-sizing: border-box;
   margin-top: 50px;
-  background-color: #709397;
+  /* background-color: #709397; */
   border-radius: 10px;
 }
 
@@ -242,6 +237,3 @@ input[type="submit"] {
 form {
   margin: 30px 0px;
 }
-
-
-
