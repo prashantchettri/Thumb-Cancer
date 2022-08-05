@@ -12,15 +12,10 @@ body {
   font-size: 1.125 rem;
 }
 
-<<<<<<< HEAD
 .herobox1 {
   font-weight: bold;
 }
 .herobox1.thumbCancer {
-=======
-
-.herobox1.thumbCancer{
->>>>>>> 824c4940be2bc7da369b8cac87f5ec93e4fc09b2
   font-size: large;
 }
 
@@ -50,8 +45,6 @@ main {
 .main2 {
   min-height: 300px;
   padding-top: 30px;
-  font-weight: bold;
-
 }
 
 .cards {
@@ -64,7 +57,7 @@ main {
   background-size: cover;
   background-position: top;
   min-height: 250px;
-  width: 22%;
+  width: 30%;
 }
 
 .card1 p {
@@ -75,12 +68,7 @@ main {
   background-size: cover;
   background-position: center;
   min-height: 250px;
-<<<<<<< HEAD
   width: 30%;
-=======
-  width: 22%;
-
->>>>>>> 824c4940be2bc7da369b8cac87f5ec93e4fc09b2
 }
 .card2 p {
   position: relative;
@@ -90,28 +78,11 @@ main {
   background-size: cover;
   background-position: bottom;
   min-height: 250px;
-<<<<<<< HEAD
   width: 30%;
-=======
-  width: 22%;
-
->>>>>>> 824c4940be2bc7da369b8cac87f5ec93e4fc09b2
 }
 .card3 p {
   position: relative;
   top: 135px;
-}
-.card4 {
-  background-size: cover;
-  background-position: top;
-  min-height: 250px;
-  width: 22%;
-}
-
-
-.card4 p {
-  position: relative;
-  top: 115px;
 }
 
 a {
@@ -120,7 +91,6 @@ a {
 }
 
 .herobox1 {
-  font-weight: bold;
   padding-right: 100px;
   flex: 2;
 }
@@ -162,22 +132,22 @@ p {
 }
 .mybutton {
   color: #f7ce68;
-  font-family: "poppins", serif;
+  font-family: "Playfair Display", serif;
   text-decoration: none;
-  background-color: rgb(21, 181, 16);
+  background-color: rgb(137, 54, 232);
   padding: 10px 25px 10px 25px;
   border-radius: 5px;
 }
 
 .mybutton:hover {
-  background-color: #0fad1c;
+  background-color: #709397;
   transition-duration: 0.5s;
 }
 
 a.mybutton {
   display: inline-block;
   margin-top: 5px;
-  box-shadow: 2px 2px 2px rgb(21, 181, 16);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.248);
 }
 
 nav a.mybutton {
@@ -258,59 +228,12 @@ nav a.mybutton {
 
 .inputwrapper {
   margin-bottom: 20px;
-  padding-top: 20px;
 }
 
-
-
-
-
-/* carrot*/
-.heading{
- font-weight: bolder;
- font-size: xx-large;
- color: #709397;
+input[type="submit"] {
+  border-style: none;
 }
 
-.sub-heading{
-font-weight: lighter;
-font-size: larger;
+form {
+  margin: 30px 0px;
 }
-<<<<<<< HEAD
-=======
-
-input[type=text], select {
-  width: 50%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-input[type=email], select {
-  width: 50%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-textarea {
-  width: 100%;
-  height: 150px;
-  padding: 12px 20px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  background-color: #f8f8f8;
-  font-size: 16px;
-  resize: none;
-}
-
-.space{
-  padding-bottom: 10px;
-}
->>>>>>> 824c4940be2bc7da369b8cac87f5ec93e4fc09b2
