@@ -80,7 +80,7 @@ main {
 }
 .card3 {
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   min-height: 250px;
   width: 22%;
 
@@ -95,8 +95,6 @@ main {
   min-height: 250px;
   width: 22%;
 }
-
-
 .card4 p {
   position: relative;
   top: 115px;
@@ -298,4 +296,9 @@ textarea {
 
 .space{
   padding-bottom: 10px;
+}
+
+.blue{
+  color: black;
+  font-weight: light;  
 }
