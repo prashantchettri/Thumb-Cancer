@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200&display=swap');
 html {
   background-image: linear-gradient(#fbab7e, #f7ce68);
 }
@@ -12,10 +12,8 @@ body {
   font-size: 1.125 rem;
 }
 
-.herobox1 {
-  font-weight: bold;
-}
-.herobox1.thumbCancer {
+
+.herobox1.thumbCancer{
   font-size: large;
 }
 
@@ -25,6 +23,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
 
 header {
   display: flex;
@@ -45,20 +44,24 @@ main {
 .main2 {
   min-height: 300px;
   padding-top: 30px;
+  font-weight: bold;
+
 }
 
 .cards {
   display: flex;
   justify-content: space-between;
   text-align: center;
+
 }
 
 .card1 {
   background-size: cover;
   background-position: top;
   min-height: 250px;
-  width: 30%;
+  width: 22%;
 }
+
 
 .card1 p {
   position: relative;
@@ -68,7 +71,8 @@ main {
   background-size: cover;
   background-position: center;
   min-height: 250px;
-  width: 30%;
+  width: 22%;
+
 }
 .card2 p {
   position: relative;
@@ -78,11 +82,24 @@ main {
   background-size: cover;
   background-position: bottom;
   min-height: 250px;
-  width: 30%;
+  width: 22%;
+
 }
 .card3 p {
   position: relative;
   top: 135px;
+}
+.card4 {
+  background-size: cover;
+  background-position: top;
+  min-height: 250px;
+  width: 22%;
+}
+
+
+.card4 p {
+  position: relative;
+  top: 115px;
 }
 
 a {
@@ -91,6 +108,7 @@ a {
 }
 
 .herobox1 {
+  font-weight: bold;
   padding-right: 100px;
   flex: 2;
 }
@@ -132,22 +150,22 @@ p {
 }
 .mybutton {
   color: #f7ce68;
-  font-family: "Playfair Display", serif;
+  font-family: "poppins", serif;
   text-decoration: none;
-  background-color: rgb(137, 54, 232);
+  background-color: rgb(21, 181, 16);
   padding: 10px 25px 10px 25px;
   border-radius: 5px;
 }
 
 .mybutton:hover {
-  background-color: #709397;
+  background-color: #0fad1c;
   transition-duration: 0.5s;
 }
 
 a.mybutton {
   display: inline-block;
   margin-top: 5px;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.248);
+  box-shadow: 2px 2px 2px rgb(21, 181, 16);
 }
 
 nav a.mybutton {
@@ -175,17 +193,17 @@ nav a.mybutton {
   justify-content: space-between;
 
   margin-bottom: 100px;
-  /* padding-right: 250px;
-  padding-left: 250px; */
+  padding-right: 250px;
+  padding-left: 250px;
 }
 
 .rbox {
   width: 47%;
   padding: 50px;
-  border: 2px solid rgb(18, 17, 20);
+  border: 2px solid rgb(160, 95, 234);
   box-sizing: border-box;
   margin-top: 50px;
-  /* background-color: #709397; */
+  background-color: #709397;
   border-radius: 10px;
 }
 
@@ -228,12 +246,56 @@ nav a.mybutton {
 
 .inputwrapper {
   margin-bottom: 20px;
+  padding-top: 20px;
 }
 
-input[type="submit"] {
-  border-style: none;
+
+
+
+
+/* carrot*/
+.heading{
+ font-weight: bolder;
+ font-size: xx-large;
+ color: #709397;
 }
 
-form {
-  margin: 30px 0px;
+.sub-heading{
+font-weight: lighter;
+font-size: larger;
+}
+
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+.space{
+  padding-bottom: 10px;
 }
